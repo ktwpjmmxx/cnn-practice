@@ -1,0 +1,2 @@
+# cnn-practice
+about cnn
