@@ -26,6 +26,8 @@ class FashionCNN(nn.Module):
         self.fc1 = nn.Linear(4608,64)
         self.relu = nn.ReLU()
         self.fc2 = nn.Linear(64,10)
+#モデル定義内の構成
+#conv1 → relu1 → conv2 → relu2 →     #pool → flatten→ fc1 → relu3 → fc2
 
     def forward(self, x):
         # TODO: 順伝播の記述
